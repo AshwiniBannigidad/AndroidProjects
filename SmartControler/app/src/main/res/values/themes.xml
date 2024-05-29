@@ -1,0 +1,4 @@
+<!-- res/values/themes.xml -->
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- If there are any unique styles here that are not in styles.xml, keep them. Otherwise, this file can be empty or removed. -->
+</resources>

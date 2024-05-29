@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#121212">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/dashboardTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home Dashboard"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp" />
+
+    <!-- Button to control lights -->
+    <Button
+        android:id="@+id/lightsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lights"
+        android:layout_below="@id/dashboardTitle"
+        android:layout_marginTop="32dp"
+        android:layout_centerHorizontal="true"
+        android:drawableStart="@drawable/ic_light"
+        android:backgroundTint="#FFEB3B"
+        android:textColor="#000000" />
+
+    <!-- Button to control thermostat -->
+    <Button
+        android:id="@+id/thermostatButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thermostat"
+        android:layout_below="@id/lightsButton"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:drawableStart="@drawable/ic_thermostat"
+        android:backgroundTint="#03A9F4"
+        android:textColor="#FFFFFF" />
+
+    <!-- Button to control door lock -->
+    <Button
+        android:id="@+id/doorLockButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Door Lock"
+        android:layout_below="@id/thermostatButton"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:drawableStart="@drawable/ic_door_lock"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#FFFFFF" />
+
+    <!-- Button to view energy usage -->
+
+    <!-- Button to access settings -->
+    <Button
+        android:id="@+id/settingsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:layout_below="@id/doorLockButton"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:drawableStart="@drawable/ic_settings"
+        android:backgroundTint="#9E9E9E"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>

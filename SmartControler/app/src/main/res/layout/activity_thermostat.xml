@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThermostatActivity">
+
+    <TextView
+        android:id="@+id/currentTempTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Current Temperature: 20°C"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/setPointTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Point: 22°C"
+        android:textSize="18sp"
+        android:layout_below="@id/currentTempTextView"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/increaseTempButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Increase"
+        android:layout_below="@id/setPointTextView"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/decreaseTempButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Decrease"
+        android:layout_below="@id/increaseTempButton"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/scheduleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Schedule"
+        android:layout_below="@id/decreaseTempButton"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+
+
+
+
+</RelativeLayout>

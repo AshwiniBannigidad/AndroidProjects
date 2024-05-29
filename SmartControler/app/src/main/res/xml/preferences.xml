@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="General Settings">
+
+        <CheckBoxPreference
+            android:key="key_checkbox_preference"
+            android:title="Checkbox Preference"
+            android:summary="This is a checkbox preference"
+            android:defaultValue="false"/>
+
+        <EditTextPreference
+            android:key="key_edittext_preference"
+            android:title="EditText Preference"
+            android:summary="This is an edit text preference"
+            android:defaultValue=""/>
+
+        <ListPreference
+            android:key="key_list_preference"
+            android:title="List Preference"
+            android:summary="This is a list preference"
+            android:entries="@array/list_entries"
+            android:entryValues="@array/list_values"
+            android:defaultValue=""/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
